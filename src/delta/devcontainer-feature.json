@@ -1,0 +1,16 @@
+{
+    "name": "delta",
+    "id": "delta",
+    "version": "1.0.0",
+    "description": "Installs the git-delta pager from GitHub releases",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Delta version e.g. 1.2.3"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
