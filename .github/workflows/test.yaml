@@ -13,8 +13,8 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - dart-sass
+          - delta
         baseImage:
           - debian:latest
           - ubuntu:latest
