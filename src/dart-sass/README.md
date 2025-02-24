@@ -1,15 +1,13 @@
 
-# My Favorite Color (color)
+# dart-sass (dart-sass)
 
-A feature to remind you of your favorite color
+Installs dart-sass from GitHub releases
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/feature-starter/color:1": {
-        "version": "latest"
-    }
+    "ghcr.io/bertiewils/devcontainer-features/dart-sass:1": {}
 }
 ```
 
@@ -17,10 +15,17 @@ A feature to remind you of your favorite color
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| favorite | Choose your favorite color. | string | red |
+| version | Sass version e.g. 1.2.3 | string | latest |
 
+
+
+## OS Support
+
+This Feature should work on recent versions of Debian/Ubuntu-based distributions with `curl` installed.
+
+`bash` is required to execute the `install.sh` script.
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/feature-starter/blob/main/src/color/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/bertiewils/devcontainer-features/blob/main/src/dart-sass/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

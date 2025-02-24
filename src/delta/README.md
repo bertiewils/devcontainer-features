@@ -1,15 +1,13 @@
 
-# Hello, World! (hello)
+# delta (delta)
 
-A hello world feature
+Installs the git-delta pager from GitHub releases
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/feature-starter/hello:1": {
-        "version": "latest"
-    }
+    "ghcr.io/bertiewils/devcontainer-features/delta:1": {}
 }
 ```
 
@@ -17,10 +15,17 @@ A hello world feature
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| greeting | Select a pre-made greeting, or enter your own | string | hey |
+| version | Delta version e.g. 1.2.3 | string | latest |
 
+
+
+## OS Support
+
+This Feature should work on recent versions of Debian/Ubuntu-based distributions with `curl` installed.
+
+`bash` is required to execute the `install.sh` script.
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/feature-starter/blob/main/src/hello/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/bertiewils/devcontainer-features/blob/main/src/delta/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
